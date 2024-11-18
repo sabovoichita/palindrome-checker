@@ -13,8 +13,10 @@ let checkPalindrome = () => {
   }
 
   if (userInput === userInputReverse) {
-    console.log("Are inputs equal?", userInput === userInputReverse);
+    // console.log("Are inputs equal?", userInput === userInputReverse);
     result.innerHTML = `<b>${textInput.value}</b> is a palindrome`;
+  } else {
+    result.innerHTML = `<b>${textInput.value}</b> is  NOT a palindrome`;
   }
 
   console.log("Here1: ", userInput);
