@@ -11,6 +11,11 @@ let checkPalindrome = () => {
     alert("Please input a value");
     return null;
   }
+
+  if (userInput === userInputReverse) {
+    console.log("Are inputs equal?", userInput === userInputReverse);
+  }
+
   console.log("Here1: ", userInput);
   console.log("Here Reversed2: ", userInputReverse);
 };
