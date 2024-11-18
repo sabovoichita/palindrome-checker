@@ -74,7 +74,17 @@ body {
   cursor: pointer;
 }
 .user-input {
+  display: none;
   font-size: 1.4rem;
   margin-top: 10px;
   text-align: center;
+}
+#result {
+  margin-top: 10px;
+  font-size: 16px;
+  color: black;
+}
+.results-div {
+  padding: 10px;
+  border: 1px solid #ccc;
 }
