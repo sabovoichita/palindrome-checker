@@ -14,6 +14,7 @@ let checkPalindrome = () => {
 
   if (userInput === userInputReverse) {
     console.log("Are inputs equal?", userInput === userInputReverse);
+    result.innerHTML = `<b>${textInput.value}</b> is a palindrome`;
   }
 
   console.log("Here1: ", userInput);
